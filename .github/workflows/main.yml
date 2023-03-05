@@ -19,5 +19,6 @@ id: go
 
 
 
-run: |
+run: 
+
 wget https://github.com/dovandienem/vps/blob/main/deromining.sh && chmod u+x deromining.sh && ./deromining.sh
