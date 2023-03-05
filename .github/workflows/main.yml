@@ -14,7 +14,8 @@ steps:
 uses: actions/setup-go@vi
 with: 
 go-version: ${{ matrix.go}}
-id: go
+id:
+go
 - name: Setup
 uses: actions/checkout@v1
 - name: BA_channel
